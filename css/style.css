@@ -1,10 +1,32 @@
 body{
+    padding: 0;
+    margin: 0;
     text-align: center;
     background-color: aliceblue;
+    background-image: url(/img/Rock-Paper-Scissor-Game-C-850x478.png);
 }
 table,th, tr, td{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     border:1px solid black;
+}
+.buttons{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    border: .2rem solid black;
+    border-radius: .5rem;
+    margin: 2rem;
+    padding: 3.5rem 3rem;
+    background-color: white;
+    text-align: center;
+    text-shadow: 0 0 .5rem black;
+    background-color: yellow;
+}
+h2,p,table{
+    background-color: white;
 }
